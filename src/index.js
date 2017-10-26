@@ -9,6 +9,6 @@ require('./stylesheets/base.scss');
 ReactDom.render(
     <BrowserRouter>
         <Routes />
-    </BrowserRouter>, document.querySelector('#app'));
+    </BrowserRouter>, document.getElementById('root'));
 
 registerServiceWorker();
